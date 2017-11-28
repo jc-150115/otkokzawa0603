@@ -4,10 +4,16 @@
              xmlns:local="clr-namespace:TOPSample01"
              x:Class="TOPSample01.MainPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Orientation="Vertical">
+            <Button Text="ボディー統計" VerticalOptions="Start" WidthRequest="100" HeightRequest="60" />
+            <Button Text="トレーニング履歴" VerticalOptions="Start" WidthRequest="100" HeightRequest="60"/>
+            <Button Text="推定RM" VerticalOptions="Start" WidthRequest="100" HeightRequest="60"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Button Text="TOP" VerticalOptions="End"/>
+            <Button Text="記録" VerticalOptions="End"/>
+            <Button Text="ストップウォッチ・タイマー" VerticalOptions="End" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
