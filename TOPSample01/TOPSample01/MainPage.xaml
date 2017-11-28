@@ -13,7 +13,7 @@
         <StackLayout Orientation="Horizontal">
             <Button Text="TOP" VerticalOptions="End"/>
             <Button Text="記録" VerticalOptions="End"/>
-            <Button Text="ストップウォッチ・タイマー" VerticalOptions="End" />
+            <Button Text="ストップウォッチ・タイマー" VerticalOptions="End" />//
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
